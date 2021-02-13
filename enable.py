@@ -43,6 +43,11 @@ def unblockIt(website):
 
 def main():
 
+    print("##############################################################")
+    print("##############################################################")
+    print("##################WEBSITE BLOCKER Re-Enabler###################")
+    print("##############################################################")
+    print("##############################################################")
     if(not isAdmin()):
         print("Access Denied, Asking for permission")
         ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
